@@ -194,6 +194,9 @@ article#content {
         }
         @media only screen and (max-width: 678px) {
             min-height: 800px;
+            a {
+                display: block;
+            }
         }
         h1 {
             display: block;

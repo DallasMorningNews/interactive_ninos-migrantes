@@ -155,7 +155,9 @@ article#content {
         height: 300px; } }
     @media only screen and (max-width: 678px) {
       .stories-nav-wrapper .stories-wrapper {
-        min-height: 800px; } }
+        min-height: 800px; }
+        .stories-nav-wrapper .stories-wrapper a {
+          display: block; } }
     .stories-nav-wrapper .stories-wrapper h1 {
       display: block;
       position: absolute;

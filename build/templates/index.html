@@ -24,7 +24,7 @@
 
 <meta name="liveFyreID" content="{{id}}" />
 
-<meta name="parsely-page" id='parsely-page' content='{"title": "{{shareTitle}}", "link": "{{url}}", "image_url": "{{imgURL}}", "type": "post", "post_id": "{{id}}", "pub_date": "{{publishDate}}", "section": "{{section}}", "author": ["{{authors}}"], "tags": ["{{keywords|join('","')|safe}}"]}' />
+<meta name="parsely-page" id='parsely-page' content='{"title": "{{shareTitle}}", "link": "{{url}}", "image_url": "{{imgURL}}", "type": "post", "post_id": "{{id}}", "pub_date": "{{publishDate}}", "section": "{{section}}", "author": ["Ana Azpurua","Diane Solís"], "tags": ["{{keywords|join('","')|safe}}"]}' />
 
 <meta property="og:keywords" content="{{keywords|join(',')}}"/>
 
@@ -45,10 +45,11 @@ if (jQuery(window).width() < 768)
 {
 var DFP_sitepage = "m.DMN/interactives";
 DFPSlotSizes = [320,50]
+/*
 var adSlot0 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionTop");
 adSlot0.setTargeting("position", "x01");
 adSlot0.addService(googletag.pubads());
-
+*/
 /*
 var adSlot1 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionMiddle");
 adSlot1.setTargeting("position", "x02");
@@ -65,10 +66,11 @@ else
 {
 var DFP_sitepage = "DMN/interactives";
  DFPSlotSizes = [728,90]
+ /*
 var adSlot0 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionTop");
 adSlot0.setTargeting("position", "Top");
 adSlot0.addService(googletag.pubads());
-
+*/
 /*
 var adSlot1 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionMiddle");
 adSlot1.setTargeting("position", "Top");
@@ -101,7 +103,7 @@ googletag.enableServices();
             <h1>Niños en éxodo</h1>
 
             <p>Por <a target="_blank" href="mailto:aazpurua@aldiadallas.com">Ana E. Azpurua</a> y <a target="_blank" href="mailto:dsolis@dallasnews.com">Dianne Solís</a> | Reporteras, Al Día y Dallas News
-            <br />Publicado el 10 de octubre del 2016
+            <br />Publicado el 31 de octubre del 2016
         <!-- end bylineBlock -->
             <!-- <a href="ENGLISH URL HERE"><p><em>Read in English</em></p></a> -->
             <p>C&eacute;sar, Antonio y Roxana cruzaron el R&iacute;o Grande en los &uacute;ltimos tres a&ntilde;os en un hist&oacute;rico flujo migratorio de ni&ntilde;os y j&oacute;venes.</p>
@@ -135,61 +137,66 @@ googletag.enableServices();
                         <div class="hover-text-wrapper">
                             <h2>C&eacute;sar</h2>
                             <h3>“Yo solito me vine”</h3>
-                            <h4>Edad 4</h4>
+                            <h4>Edad: 4 a&ntilde;os</h4>
                         </div>
                     </div>
                 </div>
             </a>
+            <a href="cesar.html">
             <div class="story-hover hover-mob">
                 <div class="hover-text-wrapper">
                     <h2>C&eacute;sar</h2>
                     <h3>“Yo solito me vine”</h3>
-                    <h4>Edad 4</h4>
+                    <h4>Edad: 4 a&ntilde;os</h4>
                 </div>
             </div>
+            </a>
             <a href="roxana.html">
                 <div id="story2" class="story">
                     <div class="story-hover hover-desk">
                         <div class="hover-text-wrapper">
                             <h2>Roxana</h2>
                             <h3>“Ya ten&iacute;a miedo de salir”</h3>
-                            <h4>Edad 16</h4>
+                            <h4>Edad: 16 a&ntilde;os</h4>
                         </div>
                     </div>
                 </div>
             </a>
+            <a href="roxana.html">
             <div class="story-hover hover-mob">
                 <div class="hover-text-wrapper">
                     <h2>Roxana</h2>
                     <h3>“Ya ten&iacute;a miedo de salir”</h3>
-                    <h4>Edad 16</h4>
+                    <h4>Edad: 16 a&ntilde;os</h4>
                 </div>
             </div>
-
+            </a>
             <a href="antonio.html">
                 <div id="story3" class="story">
                     <div class="story-hover hover-desk">
                         <div class="hover-text-wrapper">
                             <h2>Antonio</h2>
                             <h3>“Lo que llevas en la mente, &iquest;c&oacute;mo lo olvidas?”</h3>
-                            <h4>Edad 18</h4>
+                            <h4>Edad: 18 a&ntilde;os</h4>
                         </div>
                     </div>
                 </div>
             </a>
+            <a href="antonio.html">
             <div class="story-hover hover-mob">
                 <div class="hover-text-wrapper">
                     <h2>Antonio</h2>
                     <h3>“Lo que llevas en la mente, &iquest;c&oacute;mo lo olvidas?”</h3>
-                    <h4>Edad 18</h4>
+                    <h4>Edad: 18 a&ntilde;os</h4>
                 </div>
             </div>
+            </a>
             <div class="close">&times;</div>
         </div>
         <!-- end stories-wrapper -->
     </div>
     <!-- end stories-nav-wrapper -->
-    <p class="cutline cutline-intro">Ben Torres/Special Contributor</p>
+    <p class="cutline cutline-intro">Ben Torres/Especial para Al D&iacute;a</p>
 </section>
 <!-- end contentHeader -->
 {%endblock%}
