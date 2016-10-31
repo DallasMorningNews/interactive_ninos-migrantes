@@ -50,11 +50,11 @@ var adSlot0 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFP
 adSlot0.setTargeting("position", "x01");
 adSlot0.addService(googletag.pubads());
 
-/*
+
 var adSlot1 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionMiddle");
 adSlot1.setTargeting("position", "x02");
 adSlot1.addService(googletag.pubads());
-*/
+
 
 /*
 var adSlot2 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionBottom");
@@ -70,11 +70,10 @@ var adSlot0 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFP
 adSlot0.setTargeting("position", "Top");
 adSlot0.addService(googletag.pubads());
 
-/*
 var adSlot1 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionMiddle");
 adSlot1.setTargeting("position", "Top");
 adSlot1.addService(googletag.pubads());
-*/
+
 
 /*
 var adSlot2 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionBottom");
@@ -213,6 +212,9 @@ googletag.enableServices();
 
     <p>Roxana, Antonio y C&eacute;sar llegaron de El Salvador en 2015 y 2016.</p>
 
+    {%include "adblock1.html" %}
+
+
     <p class="question">3. &iquest;Por qu&eacute; se van de sus pa&iacute;ses?</p>
 
     <p>Los expertos se&ntilde;alan los altos niveles de criminalidad, la pobreza y la inseguridad alimentaria en esa regi&oacute;n como factores comunes que inducen a la gente a dejar esos pa&iacute;ses.</p>
@@ -259,6 +261,8 @@ googletag.enableServices();
     <!-- end graphic -->
 
     <p class="twitter-tag">Sigue a Ana E. Azpurua y Dianne Solís en Twitter: <a href="https://twitter.com/anaeazpurua">@anaeazpurua</a> y <a href="https://twitter.com/@disolis">@disolis.</p>
+
+        {%include "adblock2.html" %}
 
 
 	<section class="credits clearfix">

@@ -49,17 +49,15 @@ var adSlot0 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFP
 adSlot0.setTargeting("position", "x01");
 adSlot0.addService(googletag.pubads());
 
-/*
+
 var adSlot1 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionMiddle");
 adSlot1.setTargeting("position", "x02");
 adSlot1.addService(googletag.pubads());
-*/
 
-/*
 var adSlot2 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionBottom");
 adSlot2.setTargeting("position", "x03");
 adSlot2.addService(googletag.pubads());
-*/
+
 }
 else
 {
@@ -69,17 +67,15 @@ var adSlot0 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFP
 adSlot0.setTargeting("position", "Top");
 adSlot0.addService(googletag.pubads());
 
-/*
+
 var adSlot1 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionMiddle");
 adSlot1.setTargeting("position", "Top");
 adSlot1.addService(googletag.pubads());
-*/
 
-/*
 var adSlot2 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionBottom");
 adSlot2.setTargeting("position", "Top");
 adSlot2.addService(googletag.pubads());
-*/
+
  }
 </script>
 <script type="text/javascript">
@@ -222,6 +218,9 @@ googletag.enableServices();
 
     <p>&ldquo;Mi principal preocupaci&oacute;n es que contin&uacute;en con su educaci&oacute;n porque han tenido vac&iacute;os acad&eacute;micos&rdquo;, dice Hern&aacute;ndez. &ldquo;No quiero verlos trabajando en restaurantes de comida r&aacute;pida y eso, quiero que sean mucho m&aacute;s exitosos que lo que nunca imaginaron&rdquo;.</p>
 
+    {%include "adblock1.html" %}
+
+
     <p class="subhead">Deudas propias y ajenas</p>
 
     <p>El estudiante de pelo puntiagudo pasar&iacute;a por un adolescente cualquiera pero, al igual que muchos de los que esa ma&ntilde;ana tratan de ganarse un peluche, desde hace tiempo fue empujado a la adultez.</p>
@@ -277,6 +276,9 @@ googletag.enableServices();
     <p>Un chico de 17 a&ntilde;os de El Salvador le dijo a la agencia Unicef que dej&oacute; la escuela por amenazas de pandilleros. Otra adolescente asegur&oacute; que su primo de 12 a&ntilde;os ya hab&iacute;a sido reclutado.</p>
 
     <p>En enero del 2015, Antonio parti&oacute; hacia Estados Unidos. Sab&iacute;a que el viaje era peligroso e inclu&iacute;a tres fronteras internacionales &mdash;Guatemala, M&eacute;xico y Estados Unidos&mdash;pero se fue de todas modos. Llevaba una medalla de la virgen de Guadalupe colgando en su cuello y $20.</p>
+
+    {%include "adblock2.html" %}
+
 
     <p class="subhead">Nieve en Irving</p>
 
@@ -338,6 +340,9 @@ googletag.enableServices();
 
     <p>&ldquo;A veces lloramos no porque seamos d&eacute;biles sino porque nos cansamos de ser fuertes&rdquo;.</p>
 
+    {%include "adblock3.html" %}
+
+
     <p class="subhead">Miles de d&oacute;lares en deudas</p>
 
     <p>La madre de Antonio ha estado enferma desde hace a&ntilde;os, aseguraron el joven y su t&iacute;a materna, Mar&iacute;a. Padec&iacute;a un tumor y le sacaron la matriz antes de que Antonio culminase el a&ntilde;o escolar.</p>
@@ -374,7 +379,6 @@ googletag.enableServices();
     <p><em>Este proyecto fue completado con apoyo del Institute for Justice and Journalism. Dianne Solís de The Dallas Morning News contribuyó con este reportaje.</em></p>
     <!-- end tagline -->
 
-{%include "adblock1.html" %}
 
 <!--
   use the above include with adblock2.html and adblock3.html to place adblocks 2 and 3, then delete this comment.
